@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+
+html, body{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+html, body, div{
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    background: #ccc;
+    position: sticky;
+    top: 0
+}
+
+#menu div{
+    display: inline-block;
+    width: 7em;
+    text-align: center;
+    padding: 0.3em 0;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo{
+    background: #777;
+    color: white;
+}
+
+#headImage{
+    height: 300px;
+    text-align: center;
+    background-image: url(./img/headImage.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#headImage > div{
+    background: rgba(255, 255, 255, 0.4);
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+}
+
+#footer{
+    background: #aaa;
+    text-align: center;
+    padding: 100px;
+    color: #f8f9fa
+}
+
+#container-3{
+    text-align: center;
+    padding: 100px 0;
+}
+
+#entry-text{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#entry-button{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #444;
+    color: white;
+    padding: 0.8em 3em;
+    margin: 1em 0;
+    font-weight: bold;
+    border: none;
+}
+
+.container > h2{
+    text-align: center;
+}
+
+.container{
+    padding: 5rem 1em;
+}
+
+.image_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 0 40px 0;
+}
+
+.image_list img{
+    width: 300px;
+    margin-bottom: 1rem;
+}
